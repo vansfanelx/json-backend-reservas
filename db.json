@@ -1,0 +1,98 @@
+{
+  "reservas": [
+    {
+      "id": "1",
+      "cliente": "Juan Pérez",
+      "fecha": "2025-07-20",
+      "hora": "13:00",
+      "mesa": 1,
+      "personas": 4,
+      "estado": "confirmada",
+      "notas": "Cumpleaños"
+    },
+    {
+      "id": "2",
+      "cliente": "Ana Talledo",
+      "fecha": "2025-07-21",
+      "hora": "14:00",
+      "mesa": 1,
+      "personas": 4,
+      "estado": "confirmada",
+      "notas": "Cumpleaños"
+    },
+    {
+      "id": "3",
+      "cliente": "Julio Pérez",
+      "fecha": "2025-07-22",
+      "hora": "15:00",
+      "mesa": 1,
+      "personas": 6,
+      "estado": "confirmada",
+      "notas": "Aniversario"
+    }
+  ],
+  "mesas": [
+    {
+      "id": "1",
+      "nombre": "Mesa 1",
+      "capacidad": 4
+    },
+    {
+      "id": "2",
+      "nombre": "Mesa 2",
+      "capacidad": 2
+    },
+    {
+      "id": "3",
+      "nombre": "Mesa 3",
+      "capacidad": 6
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "usuario": "admin1",
+      "nombre": "admin1",
+      "password": "admin123",
+      "correo": "admin1@demo.com",
+      "telefono": "999111222",
+      "rol": "administrador"
+    },
+    {
+      "id": "2",
+      "usuario": "admin2",
+      "nombre": "admin2",
+      "password": "admin456",
+      "correo": "admin2@demo.com",
+      "telefono": "999222333",
+      "rol": "administrador"
+    },
+    {
+      "id": "3",
+      "usuario": "cliente1",
+      "nombre": "Juan Pérez",
+      "password": "cliente123",
+      "correo": "cliente1@demo.com",
+      "telefono": "955111111",
+      "rol": "cliente"
+    },
+    {
+      "id": "4",
+      "usuario": "cliente2",
+      "nombre": "Ana Talledo",
+      "password": "cliente456",
+      "correo": "cliente2@demo.com",
+      "telefono": "955222222",
+      "rol": "cliente"
+    },
+    {
+      "id": "5",
+      "usuario": "cliente3",
+      "nombre": "Raúl Méndez",
+      "password": "cliente789",
+      "correo": "cliente3@demo.com",
+      "telefono": "955333333",
+      "rol": "cliente"
+    }
+  ]
+}
