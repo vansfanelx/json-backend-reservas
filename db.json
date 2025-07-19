@@ -46,6 +46,11 @@
       "id": "3",
       "nombre": "Mesa 3",
       "capacidad": 6
+    },
+    {
+      "id": "4",
+      "nombre": "Mesa 4",
+      "capacidad": 4
     }
   ],
   "usuarios": [
